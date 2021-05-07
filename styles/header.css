@@ -1,0 +1,268 @@
+.header {
+  background-color: #1a232e;
+  padding-top: 50px;
+}
+
+.offering {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.offering__logo {
+  padding-bottom: 25px;
+}
+
+.offering__title {
+  font-family: "Proxima-Nova", sans-serif;
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 42px;
+  text-align: center;
+}
+
+.offering__description {
+  font-family: "Lora", serif;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #ffffff;
+  padding-bottom: 25px;
+}
+
+/* offering__toggle */
+
+.offering__offering__toggle-wrap {
+  position: relative;
+}
+
+.offering__btn {
+  position: relative;
+  width: 335px;
+  height: 35px;
+  overflow: hidden;
+}
+.offering__btn.b2 {
+  border-radius: 2px;
+}
+
+.offering__offering__btns,
+.offering__knobs,
+.offering__layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.offering__toggle {
+  overflow: visible;
+}
+
+.offering__toggle .offering__knobs {
+  perspective: 140px;
+}
+
+.offering__toggle .offering__knobs:before,
+.offering__toggle .offering__knobs:after,
+.offering__toggle .offering__knobs span {
+  position: absolute;
+  top: 4px;
+  border-radius: 2px;
+}
+
+.offering__toggle .offering__knobs:before,
+.offering__toggle .offering__knobs:after {
+  /* width: 64px; */
+  height: 10px;
+  top: 10px;
+  color: #4e4e4e;
+  font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1;
+  padding: 9px 4px;
+  border-radius: 2px;
+}
+
+.offering__toggle .offering__knobs:before {
+  content: "Individual membership";
+  left: 20px;
+  top: 4px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.offering__toggle .offering__knobs:after {
+  content: "Group membership";
+  right: 32px;
+  top: 4px;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 100%;
+  color: #ffffff;
+}
+
+.offering__toggle .offering__knobs span {
+  top: 5px;
+  right: 5px;
+  width: 163px;
+  height: 25px;
+  background-color: #555e6d;
+  transform: rotateY(0);
+  transform-origin: 0% 50%;
+  transition: 0.6s ease all;
+  z-index: -100;
+}
+
+.offering__toggle .offering__checkbox:checked + .offering__knobs span {
+  left: 5px;
+  background-color: #555e6d;
+}
+
+.offering__toggle .offering__checkbox:checked ~ .offering__layer {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 2px;
+}
+
+.offering__checkbox {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 300;
+}
+
+.offering__knobs {
+  z-index: 200;
+}
+
+.offering__layer {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.05);
+  transition: 0.3s ease all;
+  z-index: 100;
+}
+
+.offering__list {
+  display: flex;
+  justify-content: space-between;
+  max-width: 770px;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.offering__item {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  max-width: 250px;
+  padding: 35px;
+  padding-top: 45px;
+  background-color: #ffffff;
+  box-shadow: 0px 5px 15px rgba(10, 14, 18, 0.05);
+  border-radius: 1px;
+}
+
+.offering__subtitle {
+  color: #1a232e;
+  font-family: "Proxima-Nova", sans-serif;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 33.6px;
+}
+
+.offering__price {
+  color: #1a232e;
+  font-family: "Proxima-Nova", sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 33.6px;
+  margin-bottom: 20px;
+}
+
+.offering__sentence {
+  font-family: "Lora", serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #1a232e;
+  margin-bottom: 40px;
+}
+
+.offering__button {
+  max-width: 180px;
+  width: 100%;
+  color: #ffffff;
+  background-color: #1a232e;
+  padding: 20px 50px;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  border-radius: 2px;
+  box-shadow: 5px 5px 20px rgba(26, 35, 46, 0.2);
+  margin-top: auto;
+}
+
+.offering__button:hover,
+.offering__button:focus {
+  background-color: #ff0000;
+  box-shadow: 5px 5px 20px rgba(196, 0, 0, 0.2);
+}
+
+.offering__button--active {
+  background-color: #ff0000;
+  box-shadow: 5px 5px 20px rgba(196, 0, 0, 0.2);
+}
+
+.offering__options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.offering__user {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.offering__text {
+  color: #ffffff;
+  font-family: "Proxima-Nova", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 13px;
+}
+
+.offering__link {
+  color: #ffffff;
+  font-family: "Proxima-Nova", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 13px;
+  border-bottom: 1px solid #ffffff;
+  margin-left: 5px;
+}

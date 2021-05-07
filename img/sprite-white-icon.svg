@@ -1,0 +1,17 @@
+<svg width="0" height="0" class="hidden">
+  <symbol  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" id="icon-exclusive">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M20 7.4c-3.395 0-6.2 2.85-6.2 6.431V19.2h12.4v-5.369C26.2 10.25 23.395 7.4 20 7.4zm-7.2 6.431V19.2H9.6v14.4h20.8V19.2h-3.2v-5.369C27.2 9.727 23.977 6.4 20 6.4c-3.976 0-7.2 3.327-7.2 7.431zM23.2 24a2.401 2.401 0 01-1.9 2.348V31.2h-1v-4.852A2.401 2.401 0 1123.2 24z" ></path>
+  </symbol>
+  <symbol  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" id="icon-graph">
+    <path d="M9.6 6.4h15.2l5.6 5.6v21.6H9.6V6.4zM28.985 12L24.8 7.814V12h4.185zM22.4 16.8h-4.8v13.6h4.8V16.8zm-5.6 6.4h-4v7.2h4v-7.2zm6.4-2.4h4v9.6h-4v-9.6z" ></path>
+  </symbol>
+  <symbol  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" id="icon-research">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M25.986 16.694a9.293 9.293 0 11-18.586 0 9.293 9.293 0 1118.586 0zm-2.377 7.623a10.256 10.256 0 01-6.916 2.67C11.008 26.987 6.4 22.38 6.4 16.694S11.008 6.4 16.693 6.4s10.293 4.609 10.293 10.293c0 2.663-1.01 5.09-2.67 6.917l9.358 9.358-.707.707-9.358-9.358z" ></path>
+  </symbol>
+  <symbol  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" id="icon-stories">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M33.6 6.4H6.4v11.787h27.2V6.4zm-5.58 21.397v-4.3h-1v4.3h-4.3v1h4.3v4.3h1v-4.3h4.3v-1h-4.3zM6.4 22.72h12.693V33.6H6.4V22.72z" ></path>
+  </symbol>
+  <symbol  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" id="icon-events">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M4.2 10.6h31.6v18.8H4.2V10.6zm-1-1h33.6v20.8H3.2V9.6zm12 16.8L28 20l-12.8-6.4v12.8z" ></path>
+  </symbol>
+</svg>

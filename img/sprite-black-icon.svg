@@ -1,0 +1,17 @@
+<svg width="0" height="0" class="hidden">
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" id="icon-stories-black">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M21 4H4v7.367h17V4zm-3.3 13.186v-2.5h-1v2.5h-2.5v1h2.5v2.5h1v-2.5h2.5v-1h-2.5zM4 14.2h7.933V21H4v-6.8z" fill="#000"></path>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" id="icon-research-black">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M15.866 10.433a5.433 5.433 0 11-10.866 0 5.433 5.433 0 0110.866 0zm-1.251 4.89a6.433 6.433 0 11.707-.707l5.857 5.856-.707.707-5.857-5.856z" fill="#000"></path>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" id="icon-exclusive-black">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5 5C10.597 5 9 6.602 9 8.644V12h7V8.644C16 6.602 14.403 5 12.5 5zM8 8.644V12H6v9h13v-9h-2V8.644C17 6.08 14.985 4 12.5 4S8 6.08 8 8.644zM14.5 15a1.5 1.5 0 01-1 1.415V19.5h-1v-3.085a1.5 1.5 0 112-1.415z" fill="#000"></path>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" id="icon-graph-black">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M6 4h9.5L19 7.5V21H6V4zm11.586 3.5L15.5 5.414V7.5h2.086zM14 10.5h-3V19h3v-8.5zm-3.5 4H8V19h2.5v-4.5zm4-1.5H17v6h-2.5v-6z" fill="#000"></path>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" id="icon-events-black">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M3 7h19v11H3V7zM2 6h21v13H2V6zm7.5 10.5l8-4-8-4v8z" fill="#000"></path>
+  </symbol>
+</svg>
