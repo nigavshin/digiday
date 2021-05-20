@@ -1,0 +1,109 @@
+.cards__list {
+  display: flex;
+  justify-content: space-between;
+  max-width: 770px;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.cards__item {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  max-width: 250px;
+  padding: 35px;
+  padding-top: 45px;
+  background-color: #ffffff;
+  box-shadow: 0px 5px 15px rgba(10, 14, 18, 0.05);
+  border-radius: 1px;
+}
+
+.cards__subtitle {
+  color: #1a232e;
+  font-family: "Proxima-Nova", sans-serif;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 33.6px;
+}
+
+.cards__price {
+  color: #1a232e;
+  font-family: "Proxima-Nova", sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 33.6px;
+  margin-bottom: 20px;
+}
+
+.cards__sentence {
+  font-family: "Lora", serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #1a232e;
+  margin-bottom: 40px;
+}
+
+.cards__button {
+  max-width: 180px;
+  width: 100%;
+  color: #ffffff;
+  background-color: #1a232e;
+  padding: 20px 50px;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  border-radius: 2px;
+  box-shadow: 5px 5px 20px rgba(26, 35, 46, 0.2);
+  margin-top: auto;
+}
+
+.cards__button:hover,
+.cards__button:focus {
+  background-color: #ff0000;
+  box-shadow: 5px 5px 20px rgba(196, 0, 0, 0.2);
+}
+
+.cards__button--active {
+  background-color: #ff0000;
+  box-shadow: 5px 5px 20px rgba(196, 0, 0, 0.2);
+}
+
+.cards__options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.cards__user {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.cards__text {
+  color: #ffffff;
+  font-family: "Proxima-Nova", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 13px;
+}
+
+.cards__link {
+  color: #ffffff;
+  font-family: "Proxima-Nova", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 13px;
+  border-bottom: 1px solid #ffffff;
+  margin-left: 5px;
+}

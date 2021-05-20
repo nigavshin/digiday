@@ -15,7 +15,7 @@
           src="./img/logo-digiday.png"
           width="203"
           height="40"
-          alt="logo-digiday"
+          alt="logo digiday company"
         />
         <h1 class="offering__title title">
           Gain an edge, make smarter decisions.
@@ -25,7 +25,7 @@
         </p>
 
         <div class="offering__toggle-wrap">
-          <div class="offering__buttons">
+          <div class="cards__buttons">
             <div class="offering__btn offering__toggle">
               <input type="checkbox" class="offering__checkbox" />
               <div class="offering__knobs">
@@ -36,49 +36,51 @@
           </div>
         </div>
       </section>
-      <ul class="offering__list">
-        <li class="offering__item">
-          <h2 class="offering__subtitle subtitle">Quarterly</h2>
-          <p class="offering__price">$159</p>
-          <p class="offering__sentence">
-            This subscription is billed every three months
-          </p>
-          <button class="offering__button button" type="button">
-            Subscribe
-          </button>
-        </li>
-        <li class="offering__item">
-          <h2 class="offering__subtitle subtitle">Annual</h2>
-          <p class="offering__price">$395</p>
-          <p class="offering__sentence">This subscription is billed annually</p>
-          <button
-            class="offering__button button offering__button--active"
-            type="button"
-          >
-            Subscribe
-          </button>
-        </li>
-        <li class="offering__item">
-          <h2 class="offering__subtitle subtitle">Two Year</h2>
-          <p class="offering__price">$649</p>
-          <p class="offering__sentence">
-            Billed annually, then at a discount after two years
-          </p>
-          <button class="offering__button button" type="button">
-            Subscribe
-          </button>
-        </li>
-      </ul>
-      <div class="offering__options">
-        <div class="offering__user">
-          <p class="offering__text">Do you work for a nonprofit?</p>
-          <a class="offering__link" href="#">View nonprofit options</a>
+      <section class="cards">
+        <ul class="cards__list">
+          <li class="cards__item">
+            <h2 class="cards__subtitle subtitle">Quarterly</h2>
+            <p class="cards__price">$159</p>
+            <p class="cards__sentence">
+              This subscription is billed every three months
+            </p>
+            <button class="cards__button button" type="button">
+              Subscribe
+            </button>
+          </li>
+          <li class="cards__item">
+            <h2 class="cards__subtitle subtitle">Annual</h2>
+            <p class="cards__price">$395</p>
+            <p class="cards__sentence">This subscription is billed annually</p>
+            <button
+              class="cards__button button cards__button--active"
+              type="button"
+            >
+              Subscribe
+            </button>
+          </li>
+          <li class="cards__item">
+            <h2 class="cards__subtitle subtitle">Two Year</h2>
+            <p class="cards__price">$649</p>
+            <p class="cards__sentence">
+              Billed annually, then at a discount after two years
+            </p>
+            <button class="cards__button button" type="button">
+              Subscribe
+            </button>
+          </li>
+        </ul>
+        <div class="cards__options">
+          <div class="cards__user">
+            <p class="cards__text">Do you work for a nonprofit?</p>
+            <a class="cards__link" href="#">View nonprofit options</a>
+          </div>
+          <div class="cards__user">
+            <p class="cards__text">Are you a student?</p>
+            <a class="cards__link" href="#">View student options</a>
+          </div>
         </div>
-        <div class="offering__user">
-          <p class="offering__text">Are you a student?</p>
-          <a class="offering__link" href="#">View student options</a>
-        </div>
-      </div>
+      </section>
 
       <section class="access">
         <div class="access__wrapper">
@@ -89,7 +91,7 @@
         </div>
         <ul class="access__list">
           <li class="access__item">
-            <svg class="access__img">
+            <svg class="access__img" width="40" height="40">
               <use
                 xlink:href="./img/sprite-white-icon.svg#icon-exclusive"
               ></use>
@@ -97,25 +99,25 @@
             <p class="access__description">Member Exclusives</p>
           </li>
           <li class="access__item">
-            <svg class="access__img">
+            <svg class="access__img" width="40" height="40">
               <use xlink:href="./img/sprite-white-icon.svg#icon-graph"></use>
             </svg>
             <p class="access__description">Reports and Guides</p>
           </li>
           <li class="access__item">
-            <svg class="access__img">
+            <svg class="access__img" width="40" height="40">
               <use xlink:href="./img/sprite-white-icon.svg#icon-research"></use>
             </svg>
             <p class="access__description">Premium Research</p>
           </li>
           <li class="access__item">
-            <svg class="access__img">
+            <svg class="access__img" width="40" height="40">
               <use xlink:href="./img/sprite-white-icon.svg#icon-events"></use>
             </svg>
             <p class="access__description">Live Digital Events</p>
           </li>
           <li class="access__item">
-            <svg class="access__img">
+            <svg class="access__img" width="40" height="40">
               <use xlink:href="./img/sprite-white-icon.svg#icon-stories"></use>
             </svg>
             <p class="access__description">Unlimited stories</p>
@@ -127,10 +129,9 @@
       <section class="benefits">
         <ul class="benefits__list">
           <li class="benefits__item">
-            <span class="benefits__background"></span>
             <div class="benefits__wrapper">
               <div class="benefits__heading">
-                <svg class="benefits__img">
+                <svg class="benefits__img" width="25" height="25">
                   <use
                     xlink:href="./img/sprite-black-icon.svg#icon-exclusive-black"
                   ></use>
@@ -142,27 +143,14 @@
                 media, marketing and the future of TV and early access to lead
                 stories.
               </p>
-
-              <div class="benefits__view">
-                <a class="benefits__link" href="#">View a sample</a>
-                <button class="benefits__button button" type="button">
-                  <img
-                    class="benefits__img-btn"
-                    src="./img/union.svg"
-                    width="12"
-                    height="12"
-                    alt="View a sample"
-                  />
-                </button>
-              </div>
+              <a class="benefits__link" href="#">View a sample</a>
             </div>
           </li>
 
           <li class="benefits__item">
-            <span class="benefits__background"></span>
             <div class="benefits__wrapper">
               <div class="benefits__heading">
-                <svg class="benefits__img">
+                <svg class="benefits__img" width="25" height="25">
                   <use
                     xlink:href="./img/sprite-black-icon.svg#icon-graph-black"
                   ></use>
@@ -173,27 +161,14 @@
                 Practical guides and explainers to help easily navigate complex
                 and evolving industry dynamics.
               </p>
-
-              <div class="benefits__view">
-                <a class="benefits__link" href="#">View a sample</a>
-                <button class="benefits__button button" type="button">
-                  <img
-                    class="benefits__img-btn"
-                    src="./img/union.svg"
-                    width="12"
-                    height="12"
-                    alt="View a sample"
-                  />
-                </button>
-              </div>
+              <a class="benefits__link" href="#">View a sample</a>
             </div>
           </li>
 
           <li class="benefits__item">
-            <span class="benefits__background"></span>
             <div class="benefits__wrapper">
               <div class="benefits__heading">
-                <svg class="benefits__img">
+                <svg class="benefits__img" width="25" height="25">
                   <use
                     xlink:href="./img/sprite-black-icon.svg#icon-research-black"
                   ></use>
@@ -206,26 +181,14 @@
                 agency and brand insiders.
               </p>
 
-              <div class="benefits__view">
-                <a class="benefits__link" href="#">View a sample</a>
-                <button class="benefits__button button" type="button">
-                  <img
-                    class="benefits__img-btn"
-                    src="./img/union.svg"
-                    width="12"
-                    height="12"
-                    alt="View a sample"
-                  />
-                </button>
-              </div>
+              <a class="benefits__link" href="#">View a sample</a>
             </div>
           </li>
 
           <li class="benefits__item">
-            <span class="benefits__background"></span>
             <div class="benefits__wrapper">
               <div class="benefits__heading">
-                <svg class="benefits__img">
+                <svg class="benefits__img" width="25" height="25">
                   <use
                     xlink:href="./img/sprite-black-icon.svg#icon-events-black"
                   ></use>
@@ -238,26 +201,14 @@
                 opportunities and access to video archives.
               </p>
 
-              <div class="benefits__view">
-                <a class="benefits__link" href="#">View a sample</a>
-                <button class="benefits__button button" type="button">
-                  <img
-                    class="benefits__img-btn"
-                    src="./img/union.svg"
-                    width="12"
-                    height="12"
-                    alt="View a sample"
-                  />
-                </button>
-              </div>
+              <a class="benefits__link" href="#">View a sample</a>
             </div>
           </li>
 
           <li class="benefits__item">
-            <span class="benefits__background"></span>
             <div class="benefits__wrapper">
               <div class="benefits__heading">
-                <svg class="benefits__img">
+                <svg class="benefits__img" width="25" height="25">
                   <use
                     xlink:href="./img/sprite-black-icon.svg#icon-stories-black"
                   ></use>
@@ -269,18 +220,7 @@
                 limited to 3 articles each month.
               </p>
 
-              <div class="benefits__view">
-                <a class="benefits__link" href="#">View a sample</a>
-                <button class="benefits__button button" type="button">
-                  <img
-                    class="benefits__img-btn"
-                    src="./img/union.svg"
-                    width="12"
-                    height="12"
-                    alt="View a sample"
-                  />
-                </button>
-              </div>
+              <a class="benefits__link" href="#">View a sample</a>
             </div>
           </li>
         </ul>
@@ -294,7 +234,7 @@
             <label class="faq__heading" for="faq__checkbox-1"
               >What type of memberships are offered?
             </label>
-            <section class="faq__content">
+            <div class="faq__content">
               Contrary to popular belief, Lorem Ipsum is not simply random text.
               It has roots in a piece of classical Latin literature from 45 BC,
               making it over 2000 years old. Richard McClintock, a Latin
@@ -302,14 +242,14 @@
               the more obscure Latin words, consectetur, from a Lorem Ipsum
               passage, and going through the cites of the word in classical
               literature, discovered the undoubtable source.
-            </section>
+            </div>
           </li>
           <li class="faq__item">
             <input type="checkbox" id="faq__checkbox-2" name="faq__group" />
             <label class="faq__heading" for="faq__checkbox-2"
               >How can I obtain a plus membership receipt?
             </label>
-            <section class="faq__content">
+            <div class="faq__content">
               Contrary to popular belief, Lorem Ipsum is not simply random text.
               It has roots in a piece of classical Latin literature from 45 BC,
               making it over 2000 years old. Richard McClintock, a Latin
@@ -317,14 +257,14 @@
               the more obscure Latin words, consectetur, from a Lorem Ipsum
               passage, and going through the cites of the word in classical
               literature, discovered the undoubtable source.
-            </section>
+            </div>
           </li>
           <li class="faq__item">
             <input type="checkbox" id="faq__checkbox-3" name="faq__group" />
             <label class="faq__heading" for="faq__checkbox-3"
               >How can I upgrade my membership?
             </label>
-            <section class="faq__content">
+            <div class="faq__content">
               Contrary to popular belief, Lorem Ipsum is not simply random text.
               It has roots in a piece of classical Latin literature from 45 BC,
               making it over 2000 years old. Richard McClintock, a Latin
@@ -332,14 +272,14 @@
               the more obscure Latin words, consectetur, from a Lorem Ipsum
               passage, and going through the cites of the word in classical
               literature, discovered the undoubtable source.
-            </section>
+            </div>
           </li>
           <li class="faq__item">
             <input type="checkbox" id="faq__checkbox-4" name="faq__group" />
             <label class="faq__heading" for="faq__checkbox-4"
               >How do I access previous print magazines?
             </label>
-            <section class="faq__content">
+            <div class="faq__content">
               Contrary to popular belief, Lorem Ipsum is not simply random text.
               It has roots in a piece of classical Latin literature from 45 BC,
               making it over 2000 years old. Richard McClintock, a Latin
@@ -347,14 +287,14 @@
               the more obscure Latin words, consectetur, from a Lorem Ipsum
               passage, and going through the cites of the word in classical
               literature, discovered the undoubtable source.
-            </section>
+            </div>
           </li>
           <li class="faq__item">
             <input type="checkbox" id="faq__checkbox-5" name="faq__group" />
             <label class="faq__heading" for="faq__checkbox-5"
               >What are the options for student memberships?
             </label>
-            <section class="faq__content">
+            <div class="faq__content">
               Contrary to popular belief, Lorem Ipsum is not simply random text.
               It has roots in a piece of classical Latin literature from 45 BC,
               making it over 2000 years old. Richard McClintock, a Latin
@@ -362,14 +302,14 @@
               the more obscure Latin words, consectetur, from a Lorem Ipsum
               passage, and going through the cites of the word in classical
               literature, discovered the undoubtable source.
-            </section>
+            </div>
           </li>
           <li class="faq__item">
             <input type="checkbox" id="faq__checkbox-6" name="faq__group" />
             <label class="faq__heading" for="faq__checkbox-6"
               >HWhat is our cancellation and refund policy?
             </label>
-            <section class="faq__content">
+            <div class="faq__content">
               Contrary to popular belief, Lorem Ipsum is not simply random text.
               It has roots in a piece of classical Latin literature from 45 BC,
               making it over 2000 years old. Richard McClintock, a Latin
@@ -377,7 +317,7 @@
               the more obscure Latin words, consectetur, from a Lorem Ipsum
               passage, and going through the cites of the word in classical
               literature, discovered the undoubtable source.
-            </section>
+            </div>
           </li>
         </ul>
       </section>
@@ -387,19 +327,107 @@
         Join thousands of members gaining an edge with Digiday+
       </h2>
       <ul class="footer__list--top">
-        <li class="footer__item"></li>
-        <li class="footer__item"></li>
-        <li class="footer__item"></li>
-        <li class="footer__item"></li>
-        <li class="footer__item"></li>
-        <li class="footer__item"></li>
+        <li class="footer__item">
+          <img
+            class="footer__img"
+            src="./img/logo-bloomberg.png"
+            width="100"
+            height="19"
+            alt="bloomberg"
+          />
+        </li>
+        <li class="footer__item">
+          <img
+            class="footer__img"
+            src="./img/logo-viacom.png"
+            width="100"
+            height="19"
+            alt="viacom"
+          />
+        </li>
+        <li class="footer__item">
+          <img
+            class="footer__img"
+            src="./img/logo-nyt.png"
+            width="174"
+            height="27"
+            alt="new york times"
+          />
+        </li>
+        <li class="footer__item">
+          <img
+            class="footer__img"
+            src="./img/logo-hearst.png"
+            width="143"
+            height="19"
+            alt="hearst"
+          />
+        </li>
+        <li class="footer__item">
+          <img
+            class="footer__img"
+            src="./img/logo-facebook.png"
+            width="114"
+            height="24"
+            alt="facebook"
+          />
+        </li>
+        <li class="footer__item">
+          <img
+            class="footer__img"
+            src="./img/logo-publics-group.png"
+            width="53"
+            height="52"
+            alt="publics group"
+          />
+        </li>
       </ul>
       <ul class="footer__list--bottom">
-        <li class="footer__item"></li>
-        <li class="footer__item"></li>
-        <li class="footer__item"></li>
-        <li class="footer__item"></li>
-        <li class="footer__item"></li>
+        <li class="footer__item">
+          <img
+            class="footer__img"
+            src="./img/logo-conde-nast.png"
+            width="153"
+            height="22"
+            alt="conde nast"
+          />
+        </li>
+        <li class="footer__item">
+          <img
+            class="footer__img"
+            src="./img/logo-disney.png"
+            width="82"
+            height="36"
+            alt="disney"
+          />
+        </li>
+        <li class="footer__item">
+          <img
+            class="footer__img"
+            src="./img/logo-google.png"
+            width="87"
+            height="30"
+            alt="google"
+          />
+        </li>
+        <li class="footer__item">
+          <img
+            class="footer__img"
+            src="./img/logo-time-inc.png"
+            width="110"
+            height="22"
+            alt="time imc"
+          />
+        </li>
+        <li class="footer__item">
+          <img
+            class="footer__img"
+            src="./img/logo-amazon.png"
+            width="78"
+            height="24"
+            alt="amazon"
+          />
+        </li>
       </ul>
     </footer>
   </body>

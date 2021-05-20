@@ -43,6 +43,7 @@
 }
 
 .benefits__link {
+  margin-top: auto;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 300;
@@ -51,10 +52,18 @@
   color: #000000;
   opacity: 0.7;
   text-decoration: underline;
+  position: relative;
 }
 
-.benefits__view {
-  margin-top: auto;
+.benefits__link::after {
+  position: absolute;
+  content: "";
+  top: 7px;
+  left: 100px;
+  width: 12px;
+  height: 12px;
+  background-image: url("../img/union.svg");
+  margin-left: 5px;
 }
 
 .benefits__item {
@@ -63,6 +72,7 @@
   width: 400px;
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 
 .benefits__wrapper {
@@ -70,35 +80,54 @@
   height: 208px;
   display: flex;
   flex-direction: column;
+  margin-top: 130px;
 }
 
-.benefits__item:nth-of-type(1) .benefits__background {
+.benefits__item:nth-child(1)::before {
+  position: absolute;
+  content: "";
+  top: 0px;
+  left: 0px;
   width: 400px;
   height: 140px;
   background: url("../img/sprites-benefits.png") -430px -170px;
-  
 }
 
-.benefits__item:nth-child(2) .benefits__background {
+.benefits__item:nth-child(2)::before {
+  position: absolute;
+  content: "";
+  top: 0px;
+  left: 0px;
   width: 400px;
   height: 140px;
   background: url("../img/sprites-benefits.png") -430px -10px;
 }
 
-.benefits__item:nth-child(4) .benefits__background {
-  width: 400px;
-  height: 140px;
-  background: url("../img/sprites-benefits.png") -10px -330px;
-}
-
-
-.benefits__item:nth-child(3) .benefits__background {
+.benefits__item:nth-child(3)::before {
+  position: absolute;
+  content: "";
+  top: 0px;
+  left: 0px;
   width: 400px;
   height: 140px;
   background: url("../img/sprites-benefits.png") -10px -170px;
 }
 
-.benefits__item:nth-child(5)  .benefits__background{
+.benefits__item:nth-child(4)::before {
+  position: absolute;
+  content: "";
+  top: 0px;
+  left: 0px;
+  width: 400px;
+  height: 140px;
+  background: url("../img/sprites-benefits.png") -10px -330px;
+}
+
+.benefits__item:nth-child(5)::before {
+  position: absolute;
+  content: "";
+  top: 0px;
+  left: 0px;
   width: 400px;
   height: 140px;
   background: url("../img/sprites-benefits.png") -10px -10px;
