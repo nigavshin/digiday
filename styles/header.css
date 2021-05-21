@@ -14,7 +14,7 @@
 }
 
 .offering__title {
-  font-family: "Proxima-Nova", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #ffffff;
   font-weight: 900;
   font-size: 32px;
@@ -43,6 +43,7 @@
   height: 35px;
   overflow: hidden;
 }
+
 .offering__btn.b2 {
   border-radius: 2px;
 }
@@ -155,4 +156,30 @@
   background: rgba(255, 255, 255, 0.05);
   transition: 0.3s ease all;
   z-index: 100;
+}
+
+@media (max-width: 412px) {
+  .offering__title {
+    font-size: 22px;
+  }
+
+  .offering__description {
+    font-size: 16px;
+  }
+
+  .offering__btn {
+    width: 280px;
+  }
+
+  .offering__toggle .offering__knobs span {
+    width: 135px;
+  }
+
+  .offering__toggle .offering__knobs:after {
+    right: 16px;
+  }
+
+  .offering__toggle .offering__knobs:before {
+    left: 6px;
+  }
 }

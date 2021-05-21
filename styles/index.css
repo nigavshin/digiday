@@ -89,3 +89,44 @@ button:hover {
   -webkit-text-size-adjust: none;
   box-sizing: border-box;
 }
+
+.container {
+  max-width: 1220px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1220px) {
+  .container {
+    max-width: 980px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    max-width: 812px;
+  }
+}
+
+@media (max-width: 812px) {
+  .container {
+    max-width: 614px;
+  }
+}
+
+@media (max-width: 614px) {
+  .container {
+    max-width: 412px;
+  }
+}
+
+@media (max-width: 412px) {
+  .container {
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 230px) {
+  .container {
+    max-width: 280px;
+  }
+}
